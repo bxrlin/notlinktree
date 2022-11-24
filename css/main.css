@@ -26,7 +26,7 @@ a {
     width: 100%;
     min-height: 100vh;
     gap: 10px;
-    background: url(../assets/brown.gif);
+    background: url(../assets/Lull.gif);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -34,9 +34,9 @@ a {
 
 .card {
     background: #1f160e6e;
-    box-shadow: 0 8px 32px 0 #291d1581;
-    backdrop-filter: blur(7px);
-    -webkit-backdrop-filter: blur(7px);
+    box-shadow: 0 8px 32px 0 #45295081;
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
     border-radius: 10px;
     border: 1px solid rgba(255, 255, 255, 0.212);
     padding: 12px;
