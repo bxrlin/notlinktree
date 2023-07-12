@@ -142,7 +142,7 @@ async function setActivityName() {
     } = await fetchResponse(USERID);
     const mostRecent = activities.filter(m => m.type !== 4).shift();
     if (!mostRecent?.name) {
-        name.innerHTML = 'Rather be a Ghost.';
+        name.innerHTML = 'New Person, Same Old Mistakes.';
         return;
     }
     name.style.display = 'block';
