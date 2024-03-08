@@ -71,7 +71,6 @@ async function setUsername() {
         data: {
             discord_user: {
                 username: user,
-                discriminator
             }
         }
     } = await fetchResponse(USERID);
