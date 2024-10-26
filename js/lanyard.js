@@ -70,12 +70,11 @@ async function setUsername() {
     const {
         data: {
             discord_user: {
-                username: user,
-                discriminator
+                username: user
             }
         }
     } = await fetchResponse(USERID);
-    username.innerHTML = `${user}&#8239;#&#8239;${discriminator}`;
+    username.innerHTML = `${user}`;
 }
 async function setStatus() {
     const {
